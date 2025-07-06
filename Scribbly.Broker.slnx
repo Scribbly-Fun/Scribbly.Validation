@@ -1,0 +1,28 @@
+<Solution>
+  <Folder Name="/.setup/">
+    <File Path=".github/PULL_REQUEST_TEMPLATE.md" />
+    <File Path=".github/workflows/dotnet-beta.yml" />
+    <File Path=".github/workflows/dotnet-release.yml" />
+    <File Path=".github/workflows/dotnet-test.yml" />
+    <File Path="Directory.Packages.props" />
+    <File Path="nuget.config" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/example/">
+    <File Path="example/Directory.Build.props" />
+    <Project Path="example/Scribbly.Validation.Cookbook.ApiService/Scribbly.Validation.Cookbook.ApiService.csproj" />
+    <Project Path="example/Scribbly.Validation.Cookbook.AppHost/Scribbly.Validation.Cookbook.AppHost.csproj" />
+    <Project Path="example/Scribbly.Validation.Cookbook.ServiceDefaults/Scribbly.Validation.Cookbook.ServiceDefaults.csproj" />
+    <Project Path="example/Scribbly.Validation.Cookbook.Tests/Scribbly.Validation.Cookbook.Tests.csproj" />
+  </Folder>
+  <Folder Name="/lib/">
+    <File Path="source/Directory.Build.props" />
+    <Project Path="source/Scribbly.Validation.MicrosoftHosting/Scribbly.Validation.MicrosoftHosting.csproj" />
+    <Project Path="source/Scribbly.Validation/Scribbly.Validation.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <File Path="tests/Directory.Build.props" />
+    <Project Path="tests/Scribbly.Validation.IntegrationTests/Scribbly.Validation.IntegrationTests.csproj" Id="8e061b3b-593d-44fc-b5a5-b0e7b730ecb5" />
+    <Project Path="tests/Scribbly.Validation.UnitTests/Scribbly.Validation.UnitTests.csproj" Id="c4db469c-3731-4384-ab90-023d80247697" />
+  </Folder>
+</Solution>

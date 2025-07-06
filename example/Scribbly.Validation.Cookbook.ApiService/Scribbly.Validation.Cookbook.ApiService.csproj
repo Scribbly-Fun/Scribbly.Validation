@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\source\Scribbly.Validation.MicrosoftHosting\Scribbly.Validation.MicrosoftHosting.csproj" />
+    <ProjectReference Include="..\..\source\Scribbly.Validation\Scribbly.Validation.csproj" />
+    <ProjectReference Include="..\Scribbly.Validation.Cookbook.ServiceDefaults\Scribbly.Validation.Cookbook.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+  </ItemGroup>
+
+</Project>
